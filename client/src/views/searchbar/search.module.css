@@ -1,0 +1,12 @@
+.SearchButton {
+  font-family: "Great Vibes", cursive;
+  border-color: none;
+  background: linear-gradient(rgb(134, 13, 248), rgb(240, 145, 240));
+  color: rgb(255, 250, 250);
+  font-size: 15px;
+  border-radius: 10px;
+}
+
+.SearchButton:hover {
+  box-shadow: 0 0 10px rgb(230, 32, 230); /* Cambiamos el color de la sombra en el hover a violeta para iluminar los bordes */
+}

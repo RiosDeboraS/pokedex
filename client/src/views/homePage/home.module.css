@@ -1,0 +1,9 @@
+.div {
+  background-image: url("https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/151.png");
+
+  background-repeat: no-repeat; /* Esto evita que la imagen se repita */
+  background-size: contain; /* Esto hace que la imagen se ajuste al tamaño del div */
+  width: 200%;
+  height: 300%;
+  background-color: rgb(10, 1, 15);
+}

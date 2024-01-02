@@ -1,0 +1,19 @@
+.div {
+  background-color: rgb(35, 2, 61);
+  width: 1100%;
+  height: 1100%;
+  font-family: "Great Vibes", cursive;
+}
+
+.button {
+  font-family: "Great Vibes", cursive;
+  border-color: none;
+  background: linear-gradient(rgb(134, 13, 248), rgb(240, 145, 240));
+  color: rgb(8, 8, 8);
+  font-size: 15px;
+  border-radius: 10px;
+}
+
+.button:hover {
+  box-shadow: 0 0 10px rgb(230, 32, 230);
+}

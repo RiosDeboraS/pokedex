@@ -1,0 +1,70 @@
+.nav {
+  font-family: "Great Vibes", cursive;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgb(59, 5, 110), rgb(110, 66, 110));
+  border-color: rgb(240, 19, 240);
+  display: inline-flex;
+  justify-content: space-between;
+
+  align-items: center;
+  display: flex;
+}
+
+.Search {
+  margin: 25px;
+  font-family: "Great Vibes", cursive;
+  margin-left: 1000px;
+  border-radius: 50px;
+  border-color: rgb(10, 1, 18);
+  align-items: center;
+}
+input {
+  width: 150px;
+  height: 50px;
+  border-radius: 30%;
+  background-color: rgba(226, 203, 248, 0.888);
+  border-color: rgb(12, 2, 12);
+}
+.button {
+  font-family: "Great Vibes", cursive;
+  margin-left: 400px;
+  border-color: none;
+  background: linear-gradient(rgb(134, 13, 248), rgb(240, 145, 240));
+  color: rgb(255, 250, 250);
+  font-size: 20px;
+  width: 100px;
+  height: 60px;
+  border-radius: 10px;
+  font-style: italic;
+}
+
+.buttonF {
+  font-family: "Great Vibes", cursive;
+  margin-right: 1000px;
+  border-color: none;
+  background: linear-gradient(rgb(134, 13, 248), rgb(240, 145, 240));
+  color: rgb(255, 250, 250);
+  font-size: 20px;
+  padding: 1px;
+  width: 100px;
+  height: 60px;
+  border-radius: 10px;
+}
+.button:hover {
+  box-shadow: 0 0 10px rgb(230, 32, 230); /* Cambiamos el color de la sombra en el hover a violeta para iluminar los bordes */
+}
+.buttonF:hover {
+  box-shadow: 0 0 10px rgb(230, 32, 230); /* Cambiamos el color de la sombra en el hover a violeta para iluminar los bordes */
+}
+.button .enlace:link {
+  text-decoration: none;
+}
+
+a {
+  font-weight: 100;
+  color: rgb(255, 250, 250);
+  text-decoration: inherit;
+  border: 1em;
+}

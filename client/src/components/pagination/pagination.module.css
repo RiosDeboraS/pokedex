@@ -1,0 +1,35 @@
+.button {
+  font-family: "Great Vibes", cursive;
+  border-color: none;
+  background: linear-gradient(rgb(134, 13, 248), rgb(240, 145, 240));
+  color: rgb(255, 250, 250);
+  font-size: 15px;
+  border-radius: 10px;
+}
+
+.div {
+  background-color: rgba(223, 191, 249, 0.317);
+  width: 1100%;
+  height: 1100%;
+}
+
+.button:hover {
+  box-shadow: 0 0 10px rgb(230, 32, 230);
+}
+
+.conteiner {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  background-color: rgba(225, 202, 247, 0.1);
+  min-height: 100vh;
+  gap: 1em;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100vw;
+  font-family: "Great Vibes", cursive;
+}

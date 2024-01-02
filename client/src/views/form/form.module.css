@@ -1,0 +1,6 @@
+.div {
+  background: linear-gradient(rgb(59, 5, 110), rgb(110, 66, 110));
+  width: 300vh;
+  height: 50vw;
+  padding: 30px;
+}

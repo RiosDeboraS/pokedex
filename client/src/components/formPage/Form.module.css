@@ -1,0 +1,72 @@
+.form {
+  font-family: "Great Vibes", cursive;
+  position: relative;
+  right: 5%;
+  left: 30%;
+  top: 10%;
+  margin: 25px;
+  padding: 170px 45px 45px 45px; /* Aumenta el valor del padding-top */
+  border-radius: 8px;
+  box-shadow: 5px 5px 10px 10px #f716e4;
+  width: 400px;
+  height: 700px;
+  text-align: center;
+  /* background-image: url("https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/151.gif");*/
+  background-image: url("https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/151.svg");
+  background-repeat: no-repeat; /* Esto evita que la imagen se repita */
+
+  background-size: 150px 150px;
+}
+
+.form label {
+  font-family: "Great Vibes", cursive;
+  font-size: 40px;
+  display: block;
+  text-align: left;
+  color: black; /* Color de texto */
+  margin-bottom: 10px;
+}
+
+.form input[type="number"],
+.form input[type="text"] {
+  font-family: "Great Vibes", cursive;
+  font-size: 20px;
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 15px;
+  border: none;
+
+  color: black;
+  border-radius: 5px;
+}
+
+.form button {
+  font-family: "Great Vibes", cursive;
+  font-size: 50px;
+  border-color: none;
+  background: linear-gradient(rgb(134, 13, 248), rgb(240, 145, 240));
+  color: black;
+  border: none;
+  margin-top: 20px;
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px 10px;
+  margin-right: 10px;
+}
+
+.button {
+  font-family: "Great Vibes", cursive;
+  border-color: none;
+  background: linear-gradient(rgb(134, 13, 248), rgb(240, 145, 240));
+  font-size: 15px;
+  border-radius: 10px;
+  color: rgb(245, 242, 245);
+  margin-right: 10px;
+  margin-top: 1px;
+}
+.button:hover {
+  box-shadow: 0 0 10px rgb(230, 32, 230);
+}
