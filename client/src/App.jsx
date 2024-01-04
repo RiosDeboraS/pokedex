@@ -2,6 +2,9 @@ import { Formulario, Home, Detail, Landing } from "./views";
 import { Routes, Route, useLocation } from "react-router-dom";
 import NavBar from "./components/nav/NavBar";
 import style from "./app.module.css";
+import axios from "axios";
+
+axios.defaults.baseURL = "https://backend-poke-api.onrender.com";
 
 function App() {
   const { pathname } = useLocation();
